@@ -1,25 +1,31 @@
+import  "./App.css";
+import { Navbar } from "./components/Navbar";
+import { ItemListContainer } from "./components/ItemListContainer"
 
-import './App.css';
+function header() {
 
-function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <body>
+        <div>
+            <Navbar/> 
+              <ItemListContainer greeting = {"BIENVENIDOS A PATAGONIA INVESTING!"}/>
 
-export default App;
+
+        </div>
+       
+
+    </body>
+          
+    
+     
+  );
+
+
+}  
+
+
+
+  
+
+export default header;
