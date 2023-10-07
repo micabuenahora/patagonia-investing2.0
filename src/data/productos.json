@@ -1,0 +1,77 @@
+
+[
+    
+    {
+        "id":1, 
+        "titulo": "Curso autodidacta oferta y demanda",
+        "categoria": "cursos",
+        "imagen": "https://i.postimg.cc/7YNxh2kH/suply.png",
+        "descripcion": "jahdxjkkgciehcvodflijvodifeuvoiduvfoijbvgoijtgboihfdgtoihb jkjdjchkvjhbkjvf hb hhvoujjhwo;uihir;oivhevojh ihsfvuosjhfv;jlhfvdih  ifhudvoi;hbvoeifshvoi houseivhoisdehvjcoihvsoivhue",
+        "precio": 499
+
+    },
+    {
+        "id":2, 
+        "titulo": "curso autodidacta orderflow" ,
+        "imagen": "https://i.postimg.cc/T2bLpZZ0/orderflow.png",
+        "precio": 199,
+        "categoria": "cursos",
+        "descripcion": "jahdxjkkgciehcvodflijvodifeuvoiduvfoijbvgoijtgboihfdgtoihb jkjdjchkvjhbkjvf hb hhvoujjhwo;uihir;oivhevojh ihsfvuosjhfv;jlhfvdih  ifhudvoi;hbvoeifshvoi houseivhoisdehvjcoihvsoivhue"
+    
+
+    },
+    {
+        "id":3, 
+        "titulo": "curso oferta y demanda + 3 clases",
+        "imagen":  "https://i.postimg.cc/5yzCJGMP/suply3.png",
+        "categoria": "cursos",
+        "precio": 599,
+        "descripcion": "jahdxjkkgciehcvodflijvodifeuvoiduvfoijbvgoijtgboihfdgtoihb jkjdjchkvjhbkjvf hb hhvoujjhwo;uihir;oivhevojh ihsfvuosjhfv;jlhfvdih  ifhudvoi;hbvoeifshvoi houseivhoisdehvjcoihvsoivhue"
+    
+
+    },
+    {
+        "id": 4, 
+        "titulo": "1 clase particular",
+        "imagen":  "https://i.postimg.cc/3xTg8KN2/clase1.png",
+        "categoria": "clases",
+        "precio": 29,
+        "descripcion": "jahdxjkkgciehcvodflijvodifeuvoiduvfoijbvgoijtgboihfdgtoihb jkjdjchkvjhbkjvf hb hhvoujjhwo;uihir;oivhevojh ihsfvuosjhfv;jlhfvdih  ifhudvoi;hbvoeifshvoi houseivhoisdehvjcoihvsoivhue"
+
+
+    },
+    {
+        "id": 5, 
+        "titulo": "5 clases particulares",
+        "categoria": "clases",
+        "imagen": "https://i.postimg.cc/Gp3GDqk2/clase5.png" ,
+        "precio": 116,
+        "descripcion": "jahdxjkkgciehcvodflijvodifeuvoiduvfoijbvgoijtgboihfdgtoihb jkjdjchkvjhbkjvf hb hhvoujjhwo;uihir;oivhevojh ihsfvuosjhfv;jlhfvdih  ifhudvoi;hbvoeifshvoi houseivhoisdehvjcoihvsoivhue"
+    
+
+    },
+    {
+        "id":6 , 
+        "titulo": "trading room",
+        "imagen":  "https://i.postimg.cc/KYskMFGq/tradingroom.png",
+        "categoria": "tradingroom",
+        "precio": 50,
+        "descripcion": "jahdxjkkgciehcvodflijvodifeuvoiduvfoijbvgoijtgboihfdgtoihb jkjdjchkvjhbkjvf hb hhvoujjhwo;uihir;oivhevojh ihsfvuosjhfv;jlhfvdih  ifhudvoi;hbvoeifshvoi houseivhoisdehvjcoihvsoivhue"
+    
+
+    },
+    {
+        "id":7 , 
+        "titulo": "recurso gratuito",
+        "imagen": "https://i.postimg.cc/zBVhtv2Y/pdfgratuito.png" ,
+        "categoria": "regalos",
+        "precio": 0,
+        "descripcion": "jahdxjkkgciehcvodflijvodifeuvoiduvfoijbvgoijtgboihfdgtoihb jkjdjchkvjhbkjvf hb hhvoujjhwo;uihir;oivhevojh ihsfvuosjhfv;jlhfvdih  ifhudvoi;hbvoeifshvoi houseivhoisdehvjcoihvsoivhue"
+    
+
+    }
+
+
+
+
+]
