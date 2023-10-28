@@ -1,7 +1,15 @@
+
+
 export const Nosotros =() => {
     return (
-        <h1>
-            hiiiii this is nosotros 
-        </h1>
+       
+        <div>
+            
+            <h1>
+               en esta pagina podes encontrar a los mejores profesores que te podran dar asesoramiento en vivo, ademas de darte una estrategia y material para poder aprender sobre ella!
+             </h1>
+        </div>
+       
+     
     )
 }

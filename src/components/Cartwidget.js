@@ -10,7 +10,7 @@ export function Carritoicon() {
         boxShadow: 'black'
     }
     let stylesCarritoIconSpan = {
-       backgroundColor: '#c0c7c2',
+       backgroundColor: '#984CAD',
        borderRadius: '100px',
        padding: '3px'
     }

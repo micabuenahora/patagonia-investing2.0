@@ -1,10 +1,46 @@
 *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   background-color: #ede6d3;
-  font-family: 'Gravitas One', cursive;
-font-family: 'Lato', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Ysabeau', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  
 }
 
-/*ITEMLIST BUTTON y  VER MAS*/
+/*NAVBAR*/
+/* .stylesNav{
+ 
+        list-style: none;
+        display: flex;
+        justify-content: center; 
+align-items: center;
+        height: 510px;
+      
+        background-image: url(https://i.postimg.cc/PrfMfhLw/Dise-o-sin-t-tulo-6.png);
+        
+}
 
+/* banner home  */
+/*.banner-home{
+ 
+  background-image: url(https://i.postimg.cc/SQdWv5ZN/2.png);
+height: 600px;
+display: flex;
+flex-wrap: wrap;
+justify-items: center;
+  font-family: arial;
+        font-size: 20px;
+}
+ */
+ .styleTextoContainer {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://i.postimg.cc/T1LgbHfr/Dise-o-sin-t-tulo-5.png");
+  background-size: cover;
+  background-position: center;
+  
+
+}

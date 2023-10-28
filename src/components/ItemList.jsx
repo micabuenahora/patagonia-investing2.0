@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+
 export   const ItemList = ({producto, titulo }) => {
 
     let stylesContainer={
@@ -15,7 +16,8 @@ export   const ItemList = ({producto, titulo }) => {
             padding: '15px',
         }
         let stylesImg={
-            borderRadius: '50%',
+            borderRadius: '30%',
+            maxWidth: '25rem'
             
 
         }
@@ -23,6 +25,9 @@ export   const ItemList = ({producto, titulo }) => {
          let stylesTitulo ={
             backgroundColor: '#e0d2bf',
             textAlign: 'center',
+           
+            
+            
            
          }
         let stylesPrecio={
@@ -35,26 +40,31 @@ export   const ItemList = ({producto, titulo }) => {
 
         let stylestituloPrincipal={
             textAlign: 'center',
+            color: '#984CAD',
+            margin: '120px'
 
         }
 
         let stylesVerMas={
             textDecoration: 'none',
-            color: 'black',
+            color: '#e0d2bf',
             fontFamily: 'arial',
-            backgroundColor: '#c0c7c2'
-          
+            backgroundColor: '#984CAD',
+            padding: '5%', 
+            fontSize: '1.2rem',
+            
     
         }
         
         let stylesButton ={
-            fontSize: '1rem',
             fontFamily: 'arial',
-            fontWeight: '600',
-            backgroundColor: '#c0c7c2',
+            backgroundColor: '#984CAD',
             borderRadius: '30px',
             cursor: 'pointer',
-            width: '20%',
+            height: '3rem',
+            width: '30%',
+            filter: 'brightness(1.2)',
+            mixBlendMode: 'multiply',
        
 
         }
@@ -67,7 +77,6 @@ export   const ItemList = ({producto, titulo }) => {
        
 
         }
-    console.log(producto)
     return (
         <div >
              <h1 style ={stylestituloPrincipal}> oferta academica </h1>

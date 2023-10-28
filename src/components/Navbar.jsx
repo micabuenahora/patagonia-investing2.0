@@ -1,5 +1,6 @@
 import { Carritoicon } from "./Cartwidget"
 import {Link} from 'react-router-dom'
+import {Banner} from "./Banner"
 
 export function Navbar () {
 
@@ -9,33 +10,54 @@ export function Navbar () {
         backgroundColor: '#ede6d3',
         listStyle: 'none',
         display: 'flex',
-        justifyContent: 'center',
-       
+        justifyContent: 'center', 
+        alignItems: 'flex-end',
+        height: '550px',
+        position: 'relative',
+        
+        
+        
+        
+       fontSize: 'Poppins, sans-serif'
     }
 
     let stylesList = {
         cursor: 'pointer',
-        padding: '50px',
-        marginLeft: '50px',
+        margin:'70px' ,
+        textDecoration: 'none',
+        color: '#ede6d3',
+        filter: 'brightness(1.2)',
+        mixBlendMode: 'multiply',
+        fontWeight: 'bold',
+        backgroundColor: '#984CAD',
+        borderRadius: '100px',
+        padding: '15px',
         
+        
+   
+       
+        
+       
 
     }
-    let stylesLogo={
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
+/*     let stylesLogo={
+        zIndex: '1', 
+        position: 'absolute',
+        left: '0',
+        top: '200px',
+        filter: 'brightness(1.1)',
+        mixBlendMode: 'multiply',
     }
-
+ */
 /////lista
     return(
         <header>
-
+                <Banner/>
             <nav>
-                    <Link Link to="/" style ={stylesLogo}> <img src="https://i.postimg.cc/Jz1Tz3dr/Logo-retro-monta-a-turismo-viaje-excursiones-ciclismo-verde-marr-n-2.png" alt="logo patagonia investing"/></Link>
                     <ul style ={stylesNav}> {/* menu */}
-                        <li style ={stylesList}> <Link to="/">home</Link> </li>      {/*  links en menu */}
-                        <li style ={stylesList}> <Link to="/">oferta academica</Link></li>
-                        <li style ={stylesList}><Link to="/nosotros">nosotros</Link></li>
+                        <li> <Link style ={stylesList}to="/">home</Link> </li>      {/*  links en menu */}
+                        <li> <Link  style ={stylesList} to="/ofertaacademica">oferta academica</Link></li>
+                        <li ><Link style ={stylesList} to="/nosotros">nosotros</Link></li>
                         <Carritoicon/>
                 </ul> 
             </nav> 

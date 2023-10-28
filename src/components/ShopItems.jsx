@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 
 
 
+
 export const ShopItems= () => {
     /* guardar datos */
      const [productos, setProductos] = useState([]);
@@ -32,13 +33,25 @@ export const ShopItems= () => {
         listStyle: 'none',
         display: 'flex',
         justifyContent: 'center',
-       
+        marginTop: '60px',
+
     }
 
     let stylesList = {
         cursor: 'pointer',
-        padding: '50px',
         marginLeft: '50px',
+        
+        textDecoration: 'none',
+        color: '#ede6d3',
+        filter: 'brightness(1.2)',
+        mixBlendMode: 'multiply',
+        fontWeight: 'bold',
+        backgroundColor: '#984CAD',
+        borderRadius: '100px',
+        padding: '15px',
+        margin:'70px' ,
+        
+       
         
 
     }
@@ -46,13 +59,14 @@ export const ShopItems= () => {
   
 return (
     <div>
+        
         <nav>
                 
                 <ul style ={stylesNav}> {/* menu */}
-                    <li style ={stylesList}> <Link to="/ofertaacademica/cursos">cursos</Link> </li>      {/*  links en menu */}
-                    <li style ={stylesList}> <Link to="/ofertaacademica/clases">clases</Link></li>
-                    <li style ={stylesList}><Link to="/ofertaacademica/tradingroom">trading room</Link></li>
-                    <li style ={stylesList}><Link to="/ofertaacademica/regalos">regalos</Link></li>
+                    <li > <Link style ={stylesList} to="/ofertaacademica/cursos">cursos</Link> </li>      {/*  links en menu */}
+                    <li > <Link style ={stylesList} to="/ofertaacademica/clases">clases</Link></li>
+                    <li ><Link style ={stylesList} to="/ofertaacademica/tradingroom">trading room</Link></li>
+                    <li ><Link style ={stylesList} to="/ofertaacademica/regalos">regalos</Link></li>
             </ul> 
         </nav> 
       <ItemList producto = {productos}  titulo={titulo} />

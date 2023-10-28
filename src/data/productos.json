@@ -3,70 +3,69 @@
     
     {
         "id":1, 
-        "titulo": "Curso autodidacta oferta y demanda",
+        "titulo": "curso oferta y demanda",
         "categoria": "cursos",
-        "imagen": "https://i.postimg.cc/7YNxh2kH/suply.png",
-        "descripcion": "jahdxjkkgciehcvodflijvodifeuvoiduvfoijbvgoijtgboihfdgtoihb jkjdjchkvjhbkjvf hb hhvoujjhwo;uihir;oivhevojh ihsfvuosjhfv;jlhfvdih  ifhudvoi;hbvoeifshvoi houseivhoisdehvjcoihvsoivhue",
-        "precio": 499
+        "imagen": "https://i.postimg.cc/3w74P2pD/1.png",
+        "descripcion": "Tomando este curso aprenderás lo que es la oferta y la demanda, como los institucionales la usan para conseguir liquidez, como identificarla en un gráfico y usarlas para tu beneficio.",
+        "precio": 380
 
     },
     {
         "id":2, 
-        "titulo": "curso autodidacta orderflow" ,
-        "imagen": "https://i.postimg.cc/T2bLpZZ0/orderflow.png",
+        "titulo": "curso orderflow  + 3 clases" ,
+        "imagen": "https://i.postimg.cc/qvkqM4bN/Red-and-Blue-Trading-Financial-Business-Logo.png",
         "precio": 199,
         "categoria": "cursos",
-        "descripcion": "jahdxjkkgciehcvodflijvodifeuvoiduvfoijbvgoijtgboihfdgtoihb jkjdjchkvjhbkjvf hb hhvoujjhwo;uihir;oivhevojh ihsfvuosjhfv;jlhfvdih  ifhudvoi;hbvoeifshvoi houseivhoisdehvjcoihvsoivhue"
+        "descripcion": "En este curso autodidacta de orderflow aprenderás a usar los perfiles de volumen, aprenderas a leer gráficos de clusters, big trades delta, the smart tape, y también aprenderás a utilizar el orderflow dentro de las zonas de demanda."
     
 
     },
     {
         "id":3, 
-        "titulo": "curso oferta y demanda + 3 clases",
-        "imagen":  "https://i.postimg.cc/5yzCJGMP/suply3.png",
+        "titulo": " oferta y demanda + 3 clases",
+        "imagen":  "https://i.postimg.cc/ZKjZH3Hq/7.png",
         "categoria": "cursos",
-        "precio": 599,
-        "descripcion": "jahdxjkkgciehcvodflijvodifeuvoiduvfoijbvgoijtgboihfdgtoihb jkjdjchkvjhbkjvf hb hhvoujjhwo;uihir;oivhevojh ihsfvuosjhfv;jlhfvdih  ifhudvoi;hbvoeifshvoi houseivhoisdehvjcoihvsoivhue"
-    
+        "precio": 409,
+        "descripcion": "Pack donde obtendrás el material de oferta y demanda más 3 clases en vivo 1 a 1 en donde podrás despejar todas tus dudas. "
 
     },
     {
         "id": 4, 
         "titulo": "1 clase particular",
-        "imagen":  "https://i.postimg.cc/3xTg8KN2/clase1.png",
+        "imagen":  "https://i.postimg.cc/wMg8cTsJ/4.png",
         "categoria": "clases",
-        "precio": 29,
-        "descripcion": "jahdxjkkgciehcvodflijvodifeuvoiduvfoijbvgoijtgboihfdgtoihb jkjdjchkvjhbkjvf hb hhvoujjhwo;uihir;oivhevojh ihsfvuosjhfv;jlhfvdih  ifhudvoi;hbvoeifshvoi houseivhoisdehvjcoihvsoivhue"
+        "precio": 19,
+        "descripcion": "Clase en vivo 1 a 1 donde podrás resolver todas tus preguntas."
 
 
     },
     {
         "id": 5, 
-        "titulo": "5 clases particulares",
+        "titulo": "3 clases particulares",
         "categoria": "clases",
-        "imagen": "https://i.postimg.cc/Gp3GDqk2/clase5.png" ,
-        "precio": 116,
-        "descripcion": "jahdxjkkgciehcvodflijvodifeuvoiduvfoijbvgoijtgboihfdgtoihb jkjdjchkvjhbkjvf hb hhvoujjhwo;uihir;oivhevojh ihsfvuosjhfv;jlhfvdih  ifhudvoi;hbvoeifshvoi houseivhoisdehvjcoihvsoivhue"
+        "imagen": "https://i.postimg.cc/2j7fjvPx/5.png" ,
+        "precio": 75,
+        "descripcion": "3 clases en vivo 1 a 1 donde podrás resolver todas tus preguntas."
     
 
     },
     {
         "id":6 , 
         "titulo": "trading room",
-        "imagen":  "https://i.postimg.cc/KYskMFGq/tradingroom.png",
+        "imagen":  "https://i.postimg.cc/cJnVp8Rw/3.png",
         "categoria": "tradingroom",
-        "precio": 50,
-        "descripcion": "jahdxjkkgciehcvodflijvodifeuvoiduvfoijbvgoijtgboihfdgtoihb jkjdjchkvjhbkjvf hb hhvoujjhwo;uihir;oivhevojh ihsfvuosjhfv;jlhfvdih  ifhudvoi;hbvoeifshvoi houseivhoisdehvjcoihvsoivhue"
+        "precio": 30,
+        "descripcion": "Sala de trading en donde podrás ver todas las operaciones que hago a la vez que podrás despejar tus dudas."
     
 
     },
     {
         "id":7 , 
         "titulo": "recurso gratuito",
-        "imagen": "https://i.postimg.cc/zBVhtv2Y/pdfgratuito.png" ,
+        "imagen": "https://i.postimg.cc/sgtL4DkX/6.png" ,
         "categoria": "regalos",
         "precio": 0,
-        "descripcion": "jahdxjkkgciehcvodflijvodifeuvoiduvfoijbvgoijtgboihfdgtoihb jkjdjchkvjhbkjvf hb hhvoujjhwo;uihir;oivhevojh ihsfvuosjhfv;jlhfvdih  ifhudvoi;hbvoeifshvoi houseivhoisdehvjcoihvsoivhue"
+        "descripcion": "pdf gratuito como regalo!"
     
 
     }
