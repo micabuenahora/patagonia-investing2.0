@@ -1,24 +1,21 @@
 import { Carritoicon } from "./Cartwidget"
 import {Link} from 'react-router-dom'
-import {Banner} from "./Banner"
+
 
 export function Navbar () {
 
         
     /// nav styles
     let stylesNav = {
-        backgroundColor: '#ede6d3',
+      
+       width: '80%',
+       textAlign: 'center',
+       display: 'flex',
+        justifyContent: 'space-around', 
+        flexDirection: 'row',
+        alignItems: 'center',
         listStyle: 'none',
-        display: 'flex',
-        justifyContent: 'center', 
-        alignItems: 'flex-end',
-        height: '550px',
-        position: 'relative',
         
-        
-        
-        
-       fontSize: 'Poppins, sans-serif'
     }
 
     let stylesList = {
@@ -32,32 +29,20 @@ export function Navbar () {
         backgroundColor: '#984CAD',
         borderRadius: '100px',
         padding: '15px',
-        
-        
-   
-       
-        
-       
+    }
 
-    }
-/*     let stylesLogo={
-        zIndex: '1', 
-        position: 'absolute',
-        left: '0',
-        top: '200px',
-        filter: 'brightness(1.1)',
-        mixBlendMode: 'multiply',
-    }
- */
 /////lista
     return(
         <header>
-                <Banner/>
-            <nav>
+               {/*  <div">
+               
+                </div> */}
+            <nav  className="navheader">
+                <Link   to="/"><img className="logo-nav"src="https://i.postimg.cc/3N5X2Khg/Dise-o-sin-t-tulo-12-removebg-preview.png" alt="logo"/></Link>       
                     <ul style ={stylesNav}> {/* menu */}
-                        <li> <Link style ={stylesList}to="/">home</Link> </li>      {/*  links en menu */}
-                        <li> <Link  style ={stylesList} to="/ofertaacademica">oferta academica</Link></li>
-                        <li ><Link style ={stylesList} to="/nosotros">nosotros</Link></li>
+                        <li style={{backgroundColor: 'transparent',}}> <Link style ={stylesList}to="/">home</Link> </li>      {/*  links en menu */}
+                        <li style={{backgroundColor: 'transparent',}}> <Link  style ={stylesList} to="/ofertaacademica">oferta academica</Link></li>
+                        <li style={{backgroundColor: 'transparent',}}><Link style ={stylesList} to="/nosotros">nosotros</Link></li>
                         <Carritoicon/>
                 </ul> 
             </nav> 

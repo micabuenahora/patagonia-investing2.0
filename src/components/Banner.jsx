@@ -10,7 +10,7 @@ export const Banner =() => {
         objectFit: 'fill',
         top:' 0',
         left: '0',
-        zIndex: '1',
+        
        
     }
 

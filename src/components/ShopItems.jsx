@@ -40,7 +40,6 @@ export const ShopItems= () => {
     let stylesList = {
         cursor: 'pointer',
         marginLeft: '50px',
-        
         textDecoration: 'none',
         color: '#ede6d3',
         filter: 'brightness(1.2)',

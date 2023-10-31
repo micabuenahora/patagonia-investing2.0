@@ -9,12 +9,13 @@ export const Footer = () => {
         alignItems: 'center',
         height: '200px',
         bottom: '0',
+       backgroundSize: 'cover',
     }
 
     let stylesIconsContainer={
         display: 'flex',
         justifyContent: 'space-around',
-       
+        
         listStyle: 'none',
     }
 

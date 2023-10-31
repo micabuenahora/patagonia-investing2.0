@@ -1,10 +1,32 @@
-export const ItemDetail = ({item}) => {
+/* import { useContext } from "react"
+import { CartCotext } from "../context/CartContext" */
+import { CartContext } from "../context/CartContext";
+import { ItemCount } from "./ItemCount";
+import  { useState } from 'react'
+import { useContext } from "react";
+import { Link } from "react-router-dom";
 
+
+export const ItemDetail = ({item}) => {
+ 
+    const { agregarCarrito} = useContext(CartContext);
+
+    /* itemcount */
+    const [cantidad, setCantidad] = useState(1);
+
+    const handleRestar = () => {
+        cantidad > 1 && setCantidad(cantidad - 1)
+    }
+    const handleSumar = () => {
+       cantidad < item.stock && setCantidad(cantidad + 1)
+    }
+
+   
    /*  estilos del container */
     let stylesContainer = {
         maxWidth: '500px',
         paddingInline: '1.5rem',
-        margin: '400px',
+        margin: '200px 400px 100px 400px',
         
         display: 'flex',
         alignItems: 'center',
@@ -49,27 +71,31 @@ export const ItemDetail = ({item}) => {
         textAlign: 'center',
         fontFamily: 'Poppins, sans-serif',
     }
-    let stylesButton={
-        fontSize: '1rem',
-        fontFamily: 'arial',
-        fontWeight: '600',
-        backgroundColor: '#984CAD',
-        borderRadius: '30px',
-        textAlign: 'center',
-        cursor: 'pointer',
-        padding: '10px'
-    }
 
+    let flechaCarrito ={
+        fontWeight: '60px',
+        cursor: 'pointer',
+        textDecoration : 'none',
+        color:'#984CAD',
+        fontSize: '40px'
+    }
+     
+    
 
 
  return (
+
 <div style={stylesContainer}> 
+
+    <Link style={flechaCarrito} to="/ofertaacademica"> ← </Link>
+    <h1 style={stylesTituloDetail}> {item.titulo} </h1>
     <div style={stylesDetalleProducto}> </div>
     < img  style={stylesDetalleFoto} src={item.imagen} alt={item.titulo}/>
     <h3 style={stylesTituloDetail}> {item.titulo} </h3>
     <p style={stylesDescripcion}> {item.descripcion} </p>
     <p style={stylesPrecio}>us$ {item.precio} </p>
-    <button style={stylesButton}> comprar </button>
+    <ItemCount cantidad={cantidad} handleRestar={handleRestar} handleSumar={handleSumar} handleAgregar={() => {agregarCarrito(item, cantidad)}} />
+    
 </div>
  )
    

@@ -63,16 +63,13 @@ export   const ItemList = ({producto, titulo }) => {
             cursor: 'pointer',
             height: '3rem',
             width: '30%',
-            filter: 'brightness(1.2)',
-            mixBlendMode: 'multiply',
-       
+   
 
         }
         let stylesContainerButton ={
            display: 'flex',
            alignItems: 'center',
            justifyContent: 'center',
-           backgroundColor:  '#e0d2bf',
            
        
 

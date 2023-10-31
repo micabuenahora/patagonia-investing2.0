@@ -2,45 +2,116 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #ede6d3;
   font-family: 'Poppins', sans-serif;
+ 
+  
+ 
   
 }
 
 /*NAVBAR*/
-/* .stylesNav{
- 
-        list-style: none;
-        display: flex;
-        justify-content: center; 
-align-items: center;
-        height: 510px;
-      
-        background-image: url(https://i.postimg.cc/PrfMfhLw/Dise-o-sin-t-tulo-6.png);
-        
+.logo-nav{
+  margin-bottom: 55px;
 }
-
-/* banner home  */
-/*.banner-home{
- 
-  background-image: url(https://i.postimg.cc/SQdWv5ZN/2.png);
-height: 600px;
-display: flex;
-flex-wrap: wrap;
-justify-items: center;
-  font-family: arial;
-        font-size: 20px;
+ .navheader{
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: url("https://i.postimg.cc/3rDvtRTQ/Dise-o-sin-t-tulo-9.png");
+  background-size: cover;
+  background-position: center;
 }
- */
+/*  banner home */
  .styleTextoContainer {
   width: 100vw;
   height: 90vh;
+  margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-image: url("https://i.postimg.cc/T1LgbHfr/Dise-o-sin-t-tulo-5.png");
   background-size: cover;
   background-position: center;
-  
+}
+/*  item detail > counter y button agregar */
+.item-count{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
 
+.item-count button, .agregar-carrito{
+background-color: #984cad;
+border: 0;
+width: 2rem;
+height: 2rem;
+color: #ede6d3;
+border-radius: .5rem;
+cursor: pointer;
+font-size: 1rem;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+line-height: 1;
+border: 2px solid  #984cad;
+transition: .2s;
+}
+
+.item-count button:hover, .agregar-carrito:hover{
+  background-color: #ede6d3;
+  color: #984cad;
+}
+
+.agregar-carrito{
+width: auto;
+height: auto;
+margin-top: 1rem;
+padding: 1rem;
+}
+
+/* nosotrooos */
+.banner-nosotros{
+  width: 100vw;
+  height: 90vh;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  background-image: url("https://i.postimg.cc/SRdPHpXB/Dise-o-sin-t-tulo-10.png");
+  background-size: cover;
+  background-position: center;
+   color:#823797;
+}
+
+.text-nosotros{
+  margin: 0px 200px 80px 200px;
+   font-size: 30px;
+}
+
+/* carrito */
+.container-carrito{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.container-cart{
+  border-style: dashed  solid ;
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+color: #823797;
+}
+.titulo-principal{
+  color: #823797;
+ 
 }
