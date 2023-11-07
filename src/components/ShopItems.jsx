@@ -1,31 +1,34 @@
 import { useState , useEffect } from "react"
 import { ItemList } from "./ItemList";
-import { pedirProducto } from "./pedirProducto";
 import { useParams } from 'react-router-dom';
 import { Link } from "react-router-dom";
-
-
-
-
+import { collection } from "firebase/firestore";
+import {database} from "../firebase/data"
+import { getDocs } from "firebase/firestore";
+import {query, where} from "firebase/firestore"
 
 export const ShopItems= () => {
     /* guardar datos */
      const [productos, setProductos] = useState([]);
-     const [titulo,setTitulo] = useState ("oferta academica")
-     const categoria = useParams().categoria;
+     /* const [titulo,setTitulo] = useState ("oferta academica") */
+     const categorias = useParams().categoria;
       
     useEffect(() => { 
-        pedirProducto()
-            .then((respuesta) => {
-                if(categoria) {
-                    setProductos(respuesta.filter((prod) => prod.categoria === categoria))
-                    setTitulo(categoria);
-                }else{
-                     setProductos(respuesta);
-                }
-                   
+        const productosRef = collection(database, "productos")
+        const que = query(productosRef, where("categoria", "==", categorias))
+
+        getDocs(que)
+
+        .then((resp) => {
+            
+            setProductos(
+
+                resp.docs.map((doc) => {
+                    return {...doc.data(), id: doc.id}
                 })
-    }, [categoria])
+            )
+        })
+    }, [categorias])
 
     /// nav styles
     let stylesNav = {
@@ -62,13 +65,13 @@ return (
         <nav>
                 
                 <ul style ={stylesNav}> {/* menu */}
-                    <li > <Link style ={stylesList} to="/ofertaacademica/cursos">cursos</Link> </li>      {/*  links en menu */}
-                    <li > <Link style ={stylesList} to="/ofertaacademica/clases">clases</Link></li>
-                    <li ><Link style ={stylesList} to="/ofertaacademica/tradingroom">trading room</Link></li>
-                    <li ><Link style ={stylesList} to="/ofertaacademica/regalos">regalos</Link></li>
+                    <li > <Link style ={stylesList} to="/tienda/cursos">cursos</Link> </li>      {/*  links en menu */}
+                    <li > <Link style ={stylesList} to="/tienda/clases">clases</Link></li>
+                    <li ><Link style ={stylesList} to="/tienda/tradingroom">trading room</Link></li>
+                    <li ><Link style ={stylesList} to="/tienda/regalos">regalos</Link></li>
             </ul> 
         </nav> 
-      <ItemList producto = {productos}  titulo={titulo} />
+      <ItemList producto = {productos}  /* titulo={titulo}  *//>
 
     </div>
 )

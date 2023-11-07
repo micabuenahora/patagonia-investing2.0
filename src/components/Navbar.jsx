@@ -41,7 +41,7 @@ export function Navbar () {
                 <Link   to="/"><img className="logo-nav"src="https://i.postimg.cc/3N5X2Khg/Dise-o-sin-t-tulo-12-removebg-preview.png" alt="logo"/></Link>       
                     <ul style ={stylesNav}> {/* menu */}
                         <li style={{backgroundColor: 'transparent',}}> <Link style ={stylesList}to="/">home</Link> </li>      {/*  links en menu */}
-                        <li style={{backgroundColor: 'transparent',}}> <Link  style ={stylesList} to="/ofertaacademica">oferta academica</Link></li>
+                        <li style={{backgroundColor: 'transparent',}}> <Link  style ={stylesList} to="/tienda">tienda</Link></li>
                         <li style={{backgroundColor: 'transparent',}}><Link style ={stylesList} to="/nosotros">nosotros</Link></li>
                         <Carritoicon/>
                 </ul> 

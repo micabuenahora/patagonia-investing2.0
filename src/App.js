@@ -26,10 +26,10 @@ function App() {
           <Navbar/> 
           <Routes>
           <Route path= "/" element={<Home/>}/> 
-          <Route path= "/ofertaacademica" element={<ShopItems/>}/>
+          <Route path= "/tienda" element={<ShopItems/>}/>
           <Route path= "/carrito" element={<Carrito/>}/>
           <Route path= "/item/:id" element={<ItemDetailContainer/>}/> 
-          <Route path= "/ofertaacademica/:categoria" element={<ShopItems/>}/> 
+          <Route path= "/tienda/:categoria" element={<ShopItems/>}/> 
           <Route path= "/nosotros" element={<Nosotros/>}/> 
           </Routes>
          <Footer/>

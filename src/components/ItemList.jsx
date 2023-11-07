@@ -9,12 +9,6 @@ export   const ItemList = ({producto, titulo }) => {
         alignItems: 'center',
     }
 
-        let stylesProducto={
-            margin:"100px",
-            backgroundColor: '#e0d2bf',
-            borderRadius: '15% 15% 50px 50px',
-            padding: '15px',
-        }
         let stylesImg={
             borderRadius: '30%',
             maxWidth: '25rem'
@@ -83,7 +77,7 @@ export   const ItemList = ({producto, titulo }) => {
                 {
                        producto.map((prod) => {
                         return(
-                            <div style={stylesProducto} key={prod.id} > 
+                            <div className="style-productos" key={prod.id} > 
                                 <img style={stylesImg} src={prod.imagen} alt={prod.titulo}/>
                                  <h1 style={stylesTitulo}> {prod.titulo}</h1>
                                <p style={stylesPrecio}>  US$ {prod.precio}</p>

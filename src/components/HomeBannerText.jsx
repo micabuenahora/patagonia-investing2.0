@@ -47,7 +47,7 @@ return(
         <div styles={styleTextoCaja}>
             <h1 style={stylesTitulo}> convertite en un trader rentable </h1>
             <h2 style={stylesSubTitulo}> aprende a invertir en el mercado de futuros americanos aca!</h2>
-            <div style ={stylesButton}> <Link  style={{backgroundColor: 'transparent',color: '#ede6d3', textDecoration: 'none'}} to="/ofertaacademica">ver cursos</Link></div>
+            <div style ={stylesButton}> <Link  style={{backgroundColor: 'transparent',color: '#ede6d3', textDecoration: 'none'}} to="/tienda">ver cursos</Link></div>
         </div>
              
         </div>
